@@ -10,11 +10,16 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet var resultTextField: UILabel!
+    
+    var recieveResult = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        resultTextField.text = recieveResult
         
     }
+    
     
 
 
